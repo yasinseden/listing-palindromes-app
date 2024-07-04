@@ -55,16 +55,22 @@
       "isPurePalindrome": false
     },
     {
-      "id": "f013",
-      "text": "dsvfjbdshj",
+      "id": "3dbc",
+      "text": "Rats live on no evil star",
+      "isPalindrome": true,
+      "isPurePalindrome": false
+    },
+    {
+      "id": "a4f5",
+      "text": "Sentence",
       "isPalindrome": false,
       "isPurePalindrome": false
     },
     {
-      "id": "762d",
-      "text": "ana na na",
+      "id": "a0c7",
+      "text": "rats star",
       "isPalindrome": true,
-      "isPurePalindrome": false
+      "isPurePalindrome": true
     }
   ]
 }
