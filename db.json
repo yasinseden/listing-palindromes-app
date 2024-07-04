@@ -1,0 +1,70 @@
+{
+  "texts": [
+    {
+      "text": "racecar",
+      "isPurePalindrome": true,
+      "isPalindrome": true,
+      "id": "e0fe"
+    },
+    {
+      "text": "A man, a plan, a canal: Panama.",
+      "isPurePalindrome": false,
+      "isPalindrome": true,
+      "id": "fdb8"
+    },
+    {
+      "text": "A test",
+      "isPurePalindrome": false,
+      "isPalindrome": false,
+      "id": "186a"
+    },
+    {
+      "id": "1688",
+      "text": "ey edip adanada pide ye",
+      "isPurePalindrome": true,
+      "isPalindrome": true
+    },
+    {
+      "id": "5078",
+      "text": "Ey Edip Adana'da Pide Ye",
+      "isPurePalindrome": false,
+      "isPalindrome": true
+    },
+    {
+      "id": "6a16",
+      "text": "Ey Edip Adana'da Pide Değil Kebap Ye",
+      "isPurePalindrome": false,
+      "isPalindrome": false
+    },
+    {
+      "id": "f290",
+      "text": "Sentence that is not a palindrome",
+      "isPurePalindrome": false,
+      "isPalindrome": false
+    },
+    {
+      "id": "401e",
+      "text": "aba",
+      "isPalindrome": true,
+      "isPurePalindrome": true
+    },
+    {
+      "id": "6fd8",
+      "text": "aba ba",
+      "isPalindrome": true,
+      "isPurePalindrome": false
+    },
+    {
+      "id": "f013",
+      "text": "dsvfjbdshj",
+      "isPalindrome": false,
+      "isPurePalindrome": false
+    },
+    {
+      "id": "762d",
+      "text": "ana na na",
+      "isPalindrome": true,
+      "isPurePalindrome": false
+    }
+  ]
+}

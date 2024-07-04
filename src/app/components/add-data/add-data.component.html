@@ -1,0 +1,15 @@
+<div class="w-50 d-flex flex-column pt-5 px-5">
+    <!-- Label Begin -->
+    <label for="newText" class="fs-4">Enter Text:</label>
+    <!-- Label End -->
+    <!-- Input Group Begin -->
+    <div class="input-group mb-3">
+        <!-- Input Begin -->
+        <input type="text" class="form-control" id="newText" [(ngModel)]="newText">
+        <!-- Input End -->
+        <!-- Button Begin -->
+        <button [disabled]="newText.length <= 0" (click)="addData()" class="btn btn-outline-success" type="button">Add Text</button>
+        <!-- Button End -->
+    </div>
+    <!-- Input Group End -->
+</div>

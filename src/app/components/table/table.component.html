@@ -1,0 +1,33 @@
+<div class="w-50 d-flex p-5">
+    <!-- Table Begin -->
+    <table class="p-3 w-100">
+        <!-- Table Head Begin -->
+        <thead>
+            <!-- Table Row Begin -->
+            <tr class="bg-secondary text-light">
+                <th class="border p-2">Text</th>
+                <th class="border p-2">Palindrome</th>
+                <th class="border p-2">Pure Palindrome</th>
+            </tr>
+            <!-- Table Row End -->
+        </thead>
+        <!-- Table Head End -->
+        <!-- Table Body Begin -->
+        <tbody>
+            <!-- NgContainer Begin -->
+            <ng-container *ngFor="let text of textArr">
+                <!-- Table Row Begin -->
+                <tr
+                    [ngClass]="{'bg-success': text.isPurePalindrome, 'bg-warning': text.isPalindrome && !text.isPurePalindrome}">
+                    <td class="border p-2">{{text.text}}</td>
+                    <td class="border p-2">{{text.isPalindrome ? 'Yes': 'No'}}</td>
+                    <td class="border p-2">{{text.isPurePalindrome ? 'Yes': 'No'}}</td>
+                </tr>
+                <!-- Table Row End -->
+            </ng-container>
+            <!-- NgContainer End -->
+        </tbody>
+        <!-- Table Body End -->
+    </table>
+    <!-- Table End -->
+</div>
